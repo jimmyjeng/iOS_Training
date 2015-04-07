@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E7A650C-7DF0-4FD6-9E90-91D35A5EE7C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>train17</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3330035070E6B158C949267229908BA4AB4FC523</key>
+		<string>gitlab.aoitek.com:jimmy/training.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>17.ActionSheet/train17/train17.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3330035070E6B158C949267229908BA4AB4FC523</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.aoitek.com:jimmy/training.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3330035070E6B158C949267229908BA4AB4FC523</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3330035070E6B158C949267229908BA4AB4FC523</string>
+			<key>IDESourceControlWCCName</key>
+			<string>training</string>
+		</dict>
+	</array>
+</dict>
+</plist>

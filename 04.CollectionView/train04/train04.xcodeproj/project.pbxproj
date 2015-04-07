@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0A23BD1AA9957500C3FBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A23BC1AA9957500C3FBCC /* main.m */; };
+		BF0A23C01AA9957500C3FBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A23BF1AA9957500C3FBCC /* AppDelegate.m */; };
+		BF0A23C31AA9957500C3FBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A23C21AA9957500C3FBCC /* ViewController.m */; };
+		BF0A23C61AA9957500C3FBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23C41AA9957500C3FBCC /* Main.storyboard */; };
+		BF0A23C81AA9957500C3FBCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23C71AA9957500C3FBCC /* Images.xcassets */; };
+		BF0A23CB1AA9957500C3FBCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23C91AA9957500C3FBCC /* LaunchScreen.xib */; };
+		BF0A23D71AA9957500C3FBCC /* train04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A23D61AA9957500C3FBCC /* train04Tests.m */; };
+		BF0A23E21AA996F200C3FBCC /* RecipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A23E11AA996F200C3FBCC /* RecipeCollectionViewController.m */; };
+		BF0A23F61AA99A8B00C3FBCC /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E41AA99A8B00C3FBCC /* angry_birds_cake.jpg */; };
+		BF0A23F71AA99A8B00C3FBCC /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E51AA99A8B00C3FBCC /* creme_brelee.jpg */; };
+		BF0A23F81AA99A8B00C3FBCC /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E61AA99A8B00C3FBCC /* egg_benedict.jpg */; };
+		BF0A23F91AA99A8B00C3FBCC /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E71AA99A8B00C3FBCC /* full_breakfast.jpg */; };
+		BF0A23FA1AA99A8B00C3FBCC /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E81AA99A8B00C3FBCC /* green_tea.jpg */; };
+		BF0A23FB1AA99A8B00C3FBCC /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23E91AA99A8B00C3FBCC /* ham_and_cheese_panini.jpg */; };
+		BF0A23FC1AA99A8B00C3FBCC /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23EA1AA99A8B00C3FBCC /* ham_and_egg_sandwich.jpg */; };
+		BF0A23FD1AA99A8B00C3FBCC /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23EB1AA99A8B00C3FBCC /* hamburger.jpg */; };
+		BF0A23FE1AA99A8B00C3FBCC /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23EC1AA99A8B00C3FBCC /* instant_noodle_with_egg.jpg */; };
+		BF0A23FF1AA99A8B00C3FBCC /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23ED1AA99A8B00C3FBCC /* japanese_noodle_with_pork.jpg */; };
+		BF0A24001AA99A8B00C3FBCC /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23EE1AA99A8B00C3FBCC /* mushroom_risotto.jpg */; };
+		BF0A24011AA99A8B00C3FBCC /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23EF1AA99A8B00C3FBCC /* noodle_with_bbq_pork.jpg */; };
+		BF0A24021AA99A8B00C3FBCC /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F01AA99A8B00C3FBCC /* photo-frame.png */; };
+		BF0A24031AA99A8B00C3FBCC /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F11AA99A8B00C3FBCC /* photo-frame@2x.png */; };
+		BF0A24041AA99A8B00C3FBCC /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F21AA99A8B00C3FBCC /* starbucks_coffee.jpg */; };
+		BF0A24051AA99A8B00C3FBCC /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F31AA99A8B00C3FBCC /* thai_shrimp_cake.jpg */; };
+		BF0A24061AA99A8B00C3FBCC /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F41AA99A8B00C3FBCC /* vegetable_curry.jpg */; };
+		BF0A24071AA99A8B00C3FBCC /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF0A23F51AA99A8B00C3FBCC /* white_chocolate_donut.jpg */; };
+		BF31FFEA1AAD49E100093E97 /* RecipeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31FFE91AAD49E100093E97 /* RecipeCollectionHeaderView.m */; };
+		BF31FFED1AAD4D0200093E97 /* foot_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF31FFEB1AAD4D0200093E97 /* foot_banner.jpg */; };
+		BF31FFEE1AAD4D0200093E97 /* header_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF31FFEC1AAD4D0200093E97 /* header_banner.jpg */; };
+		BF4609FA1AAE9C8900AB0D84 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4609F91AAE9C8900AB0D84 /* RecipeViewController.m */; };
+		BF460A2E1AAEC39600AB0D84 /* photo-frame-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF460A2D1AAEC39600AB0D84 /* photo-frame-selected.png */; };
+		BF460A301AAEC4D800AB0D84 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF460A2F1AAEC4D800AB0D84 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF0A23D11AA9957500C3FBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0A23AF1AA9957500C3FBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0A23B61AA9957500C3FBCC;
+			remoteInfo = train04;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0A23B71AA9957500C3FBCC /* train04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = train04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0A23BB1AA9957500C3FBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0A23BC1AA9957500C3FBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF0A23BE1AA9957500C3FBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF0A23BF1AA9957500C3FBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF0A23C11AA9957500C3FBCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF0A23C21AA9957500C3FBCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF0A23C51AA9957500C3FBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0A23C71AA9957500C3FBCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF0A23CA1AA9957500C3FBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF0A23D01AA9957500C3FBCC /* train04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = train04Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0A23D51AA9957500C3FBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0A23D61AA9957500C3FBCC /* train04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = train04Tests.m; sourceTree = "<group>"; };
+		BF0A23E01AA996F200C3FBCC /* RecipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionViewController.h; sourceTree = "<group>"; };
+		BF0A23E11AA996F200C3FBCC /* RecipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionViewController.m; sourceTree = "<group>"; };
+		BF0A23E41AA99A8B00C3FBCC /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		BF0A23E51AA99A8B00C3FBCC /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		BF0A23E61AA99A8B00C3FBCC /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		BF0A23E71AA99A8B00C3FBCC /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		BF0A23E81AA99A8B00C3FBCC /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		BF0A23E91AA99A8B00C3FBCC /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		BF0A23EA1AA99A8B00C3FBCC /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		BF0A23EB1AA99A8B00C3FBCC /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		BF0A23EC1AA99A8B00C3FBCC /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		BF0A23ED1AA99A8B00C3FBCC /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		BF0A23EE1AA99A8B00C3FBCC /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		BF0A23EF1AA99A8B00C3FBCC /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		BF0A23F01AA99A8B00C3FBCC /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		BF0A23F11AA99A8B00C3FBCC /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame@2x.png"; sourceTree = "<group>"; };
+		BF0A23F21AA99A8B00C3FBCC /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		BF0A23F31AA99A8B00C3FBCC /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		BF0A23F41AA99A8B00C3FBCC /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		BF0A23F51AA99A8B00C3FBCC /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		BF31FFE81AAD49E100093E97 /* RecipeCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCollectionHeaderView.h; sourceTree = "<group>"; };
+		BF31FFE91AAD49E100093E97 /* RecipeCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCollectionHeaderView.m; sourceTree = "<group>"; };
+		BF31FFEB1AAD4D0200093E97 /* foot_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foot_banner.jpg; sourceTree = "<group>"; };
+		BF31FFEC1AAD4D0200093E97 /* header_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header_banner.jpg; sourceTree = "<group>"; };
+		BF4609F81AAE9C8900AB0D84 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		BF4609F91AAE9C8900AB0D84 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		BF460A2D1AAEC39600AB0D84 /* photo-frame-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame-selected.png"; sourceTree = "<group>"; };
+		BF460A2F1AAEC4D800AB0D84 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0A23B41AA9957500C3FBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF460A301AAEC4D800AB0D84 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0A23CD1AA9957500C3FBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0A23AE1AA9957500C3FBCC = {
+			isa = PBXGroup;
+			children = (
+				BF460A2F1AAEC4D800AB0D84 /* Social.framework */,
+				BF0A23B91AA9957500C3FBCC /* train04 */,
+				BF0A23D31AA9957500C3FBCC /* train04Tests */,
+				BF0A23B81AA9957500C3FBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0A23B81AA9957500C3FBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A23B71AA9957500C3FBCC /* train04.app */,
+				BF0A23D01AA9957500C3FBCC /* train04Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0A23B91AA9957500C3FBCC /* train04 */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A23E31AA99A8B00C3FBCC /* RecipeBookImage */,
+				BF0A23BE1AA9957500C3FBCC /* AppDelegate.h */,
+				BF0A23BF1AA9957500C3FBCC /* AppDelegate.m */,
+				BF0A23C11AA9957500C3FBCC /* ViewController.h */,
+				BF0A23C21AA9957500C3FBCC /* ViewController.m */,
+				BF0A23C41AA9957500C3FBCC /* Main.storyboard */,
+				BF0A23C71AA9957500C3FBCC /* Images.xcassets */,
+				BF0A23C91AA9957500C3FBCC /* LaunchScreen.xib */,
+				BF0A23BA1AA9957500C3FBCC /* Supporting Files */,
+				BF0A23E01AA996F200C3FBCC /* RecipeCollectionViewController.h */,
+				BF0A23E11AA996F200C3FBCC /* RecipeCollectionViewController.m */,
+				BF31FFE81AAD49E100093E97 /* RecipeCollectionHeaderView.h */,
+				BF31FFE91AAD49E100093E97 /* RecipeCollectionHeaderView.m */,
+				BF4609F81AAE9C8900AB0D84 /* RecipeViewController.h */,
+				BF4609F91AAE9C8900AB0D84 /* RecipeViewController.m */,
+			);
+			path = train04;
+			sourceTree = "<group>";
+		};
+		BF0A23BA1AA9957500C3FBCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A23BB1AA9957500C3FBCC /* Info.plist */,
+				BF0A23BC1AA9957500C3FBCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0A23D31AA9957500C3FBCC /* train04Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A23D61AA9957500C3FBCC /* train04Tests.m */,
+				BF0A23D41AA9957500C3FBCC /* Supporting Files */,
+			);
+			path = train04Tests;
+			sourceTree = "<group>";
+		};
+		BF0A23D41AA9957500C3FBCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A23D51AA9957500C3FBCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF0A23E31AA99A8B00C3FBCC /* RecipeBookImage */ = {
+			isa = PBXGroup;
+			children = (
+				BF460A2D1AAEC39600AB0D84 /* photo-frame-selected.png */,
+				BF31FFEB1AAD4D0200093E97 /* foot_banner.jpg */,
+				BF31FFEC1AAD4D0200093E97 /* header_banner.jpg */,
+				BF0A23E41AA99A8B00C3FBCC /* angry_birds_cake.jpg */,
+				BF0A23E51AA99A8B00C3FBCC /* creme_brelee.jpg */,
+				BF0A23E61AA99A8B00C3FBCC /* egg_benedict.jpg */,
+				BF0A23E71AA99A8B00C3FBCC /* full_breakfast.jpg */,
+				BF0A23E81AA99A8B00C3FBCC /* green_tea.jpg */,
+				BF0A23E91AA99A8B00C3FBCC /* ham_and_cheese_panini.jpg */,
+				BF0A23EA1AA99A8B00C3FBCC /* ham_and_egg_sandwich.jpg */,
+				BF0A23EB1AA99A8B00C3FBCC /* hamburger.jpg */,
+				BF0A23EC1AA99A8B00C3FBCC /* instant_noodle_with_egg.jpg */,
+				BF0A23ED1AA99A8B00C3FBCC /* japanese_noodle_with_pork.jpg */,
+				BF0A23EE1AA99A8B00C3FBCC /* mushroom_risotto.jpg */,
+				BF0A23EF1AA99A8B00C3FBCC /* noodle_with_bbq_pork.jpg */,
+				BF0A23F01AA99A8B00C3FBCC /* photo-frame.png */,
+				BF0A23F11AA99A8B00C3FBCC /* photo-frame@2x.png */,
+				BF0A23F21AA99A8B00C3FBCC /* starbucks_coffee.jpg */,
+				BF0A23F31AA99A8B00C3FBCC /* thai_shrimp_cake.jpg */,
+				BF0A23F41AA99A8B00C3FBCC /* vegetable_curry.jpg */,
+				BF0A23F51AA99A8B00C3FBCC /* white_chocolate_donut.jpg */,
+			);
+			path = RecipeBookImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0A23B61AA9957500C3FBCC /* train04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0A23DA1AA9957500C3FBCC /* Build configuration list for PBXNativeTarget "train04" */;
+			buildPhases = (
+				BF0A23B31AA9957500C3FBCC /* Sources */,
+				BF0A23B41AA9957500C3FBCC /* Frameworks */,
+				BF0A23B51AA9957500C3FBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = train04;
+			productName = train04;
+			productReference = BF0A23B71AA9957500C3FBCC /* train04.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF0A23CF1AA9957500C3FBCC /* train04Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0A23DD1AA9957500C3FBCC /* Build configuration list for PBXNativeTarget "train04Tests" */;
+			buildPhases = (
+				BF0A23CC1AA9957500C3FBCC /* Sources */,
+				BF0A23CD1AA9957500C3FBCC /* Frameworks */,
+				BF0A23CE1AA9957500C3FBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF0A23D21AA9957500C3FBCC /* PBXTargetDependency */,
+			);
+			name = train04Tests;
+			productName = train04Tests;
+			productReference = BF0A23D01AA9957500C3FBCC /* train04Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0A23AF1AA9957500C3FBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = JimmyJeng;
+				TargetAttributes = {
+					BF0A23B61AA9957500C3FBCC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BF0A23CF1AA9957500C3FBCC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BF0A23B61AA9957500C3FBCC;
+					};
+				};
+			};
+			buildConfigurationList = BF0A23B21AA9957500C3FBCC /* Build configuration list for PBXProject "train04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0A23AE1AA9957500C3FBCC;
+			productRefGroup = BF0A23B81AA9957500C3FBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0A23B61AA9957500C3FBCC /* train04 */,
+				BF0A23CF1AA9957500C3FBCC /* train04Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0A23B51AA9957500C3FBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0A23F91AA99A8B00C3FBCC /* full_breakfast.jpg in Resources */,
+				BF0A23C61AA9957500C3FBCC /* Main.storyboard in Resources */,
+				BF0A24031AA99A8B00C3FBCC /* photo-frame@2x.png in Resources */,
+				BF460A2E1AAEC39600AB0D84 /* photo-frame-selected.png in Resources */,
+				BF0A23F71AA99A8B00C3FBCC /* creme_brelee.jpg in Resources */,
+				BF0A23CB1AA9957500C3FBCC /* LaunchScreen.xib in Resources */,
+				BF0A24021AA99A8B00C3FBCC /* photo-frame.png in Resources */,
+				BF0A23FE1AA99A8B00C3FBCC /* instant_noodle_with_egg.jpg in Resources */,
+				BF0A23FD1AA99A8B00C3FBCC /* hamburger.jpg in Resources */,
+				BF0A24011AA99A8B00C3FBCC /* noodle_with_bbq_pork.jpg in Resources */,
+				BF0A24061AA99A8B00C3FBCC /* vegetable_curry.jpg in Resources */,
+				BF0A24051AA99A8B00C3FBCC /* thai_shrimp_cake.jpg in Resources */,
+				BF0A24071AA99A8B00C3FBCC /* white_chocolate_donut.jpg in Resources */,
+				BF0A23F61AA99A8B00C3FBCC /* angry_birds_cake.jpg in Resources */,
+				BF0A23C81AA9957500C3FBCC /* Images.xcassets in Resources */,
+				BF0A23FB1AA99A8B00C3FBCC /* ham_and_cheese_panini.jpg in Resources */,
+				BF31FFED1AAD4D0200093E97 /* foot_banner.jpg in Resources */,
+				BF0A24041AA99A8B00C3FBCC /* starbucks_coffee.jpg in Resources */,
+				BF0A23FA1AA99A8B00C3FBCC /* green_tea.jpg in Resources */,
+				BF0A24001AA99A8B00C3FBCC /* mushroom_risotto.jpg in Resources */,
+				BF0A23F81AA99A8B00C3FBCC /* egg_benedict.jpg in Resources */,
+				BF0A23FC1AA99A8B00C3FBCC /* ham_and_egg_sandwich.jpg in Resources */,
+				BF0A23FF1AA99A8B00C3FBCC /* japanese_noodle_with_pork.jpg in Resources */,
+				BF31FFEE1AAD4D0200093E97 /* header_banner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0A23CE1AA9957500C3FBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0A23B31AA9957500C3FBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0A23E21AA996F200C3FBCC /* RecipeCollectionViewController.m in Sources */,
+				BF0A23C31AA9957500C3FBCC /* ViewController.m in Sources */,
+				BF4609FA1AAE9C8900AB0D84 /* RecipeViewController.m in Sources */,
+				BF0A23C01AA9957500C3FBCC /* AppDelegate.m in Sources */,
+				BF31FFEA1AAD49E100093E97 /* RecipeCollectionHeaderView.m in Sources */,
+				BF0A23BD1AA9957500C3FBCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0A23CC1AA9957500C3FBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0A23D71AA9957500C3FBCC /* train04Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF0A23D21AA9957500C3FBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0A23B61AA9957500C3FBCC /* train04 */;
+			targetProxy = BF0A23D11AA9957500C3FBCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0A23C41AA9957500C3FBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0A23C51AA9957500C3FBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0A23C91AA9957500C3FBCC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0A23CA1AA9957500C3FBCC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0A23D81AA9957500C3FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF0A23D91AA9957500C3FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0A23DB1AA9957500C3FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = train04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF0A23DC1AA9957500C3FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = train04/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF0A23DE1AA9957500C3FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = train04Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/train04.app/train04";
+			};
+			name = Debug;
+		};
+		BF0A23DF1AA9957500C3FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = train04Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/train04.app/train04";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0A23B21AA9957500C3FBCC /* Build configuration list for PBXProject "train04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0A23D81AA9957500C3FBCC /* Debug */,
+				BF0A23D91AA9957500C3FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0A23DA1AA9957500C3FBCC /* Build configuration list for PBXNativeTarget "train04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0A23DB1AA9957500C3FBCC /* Debug */,
+				BF0A23DC1AA9957500C3FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0A23DD1AA9957500C3FBCC /* Build configuration list for PBXNativeTarget "train04Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0A23DE1AA9957500C3FBCC /* Debug */,
+				BF0A23DF1AA9957500C3FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0A23AF1AA9957500C3FBCC /* Project object */;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Child View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="APPChildViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3J-kG-m6o">
+                                <rect key="frame" x="150" y="86" width="300" height="300"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="VN3-vp-DzJ">
+                                <rect key="frame" x="281" y="406" width="39" height="37"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOL-Tf-nff">
+                                <rect key="frame" x="279" y="42" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="VN3-vp-DzJ" secondAttribute="centerX" id="E4t-L6-ndy"/>
+                            <constraint firstItem="VN3-vp-DzJ" firstAttribute="top" secondItem="z3J-kG-m6o" secondAttribute="bottom" constant="20" id="Q5u-AS-idY"/>
+                            <constraint firstAttribute="centerX" secondItem="z3J-kG-m6o" secondAttribute="centerX" id="UTW-Uf-pl9"/>
+                            <constraint firstItem="QOL-Tf-nff" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="eMH-VX-jpa"/>
+                            <constraint firstAttribute="centerX" secondItem="QOL-Tf-nff" secondAttribute="centerX" id="ruw-Ql-E7y"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6rD-dZ-LXv" appends="YES" id="szC-Wg-giR"/>
+                            <outletCollection property="gestureRecognizers" destination="9s3-rf-DhP" appends="YES" id="PKx-J6-Cwm"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="myImg" destination="z3J-kG-m6o" id="5RT-Z0-LGD"/>
+                        <outlet property="name" destination="QOL-Tf-nff" id="cUO-di-cew"/>
+                        <outlet property="pageController" destination="VN3-vp-DzJ" id="xkc-q4-GPc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="6rD-dZ-LXv">
+                    <connections>
+                        <action selector="handleSwipe:" destination="BYZ-38-t0r" id="jym-uj-BuD"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="9s3-rf-DhP">
+                    <connections>
+                        <action selector="handleSwipe:" destination="BYZ-38-t0r" id="c1g-1c-NrH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

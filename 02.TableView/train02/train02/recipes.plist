@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RecipeName</key>
+	<array>
+		<string>Brook</string>
+		<string>Franky</string>
+		<string>Robin</string>
+		<string>Chopper</string>
+		<string>Namei</string>
+		<string>Sanji</string>
+		<string>Usopp</string>
+		<string>Zoro</string>
+		<string>Luffy</string>
+	</array>
+	<key>Thumbnail</key>
+	<array>
+		<string>brook.jpg</string>
+		<string>franky.jpg</string>
+		<string>robin.jpg</string>
+		<string>chopper.jpg</string>
+		<string>namei.jpg</string>
+		<string>sanji.jpg</string>
+		<string>usopp.jpg</string>
+		<string>zoro.jpg</string>
+		<string>luffy.jpg</string>
+	</array>
+	<key>Money</key>
+	<array>
+		<string>33000000</string>
+		<string>44000000</string>
+		<string>80000000</string>
+		<string>50</string>
+		<string>16000000</string>
+		<string>77000000</string>
+		<string>30000000</string>
+		<string>120000000</string>
+		<string>300000000</string>
+	</array>
+</dict>
+</plist>
